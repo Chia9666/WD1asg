@@ -30,7 +30,7 @@ $posts = selectAll("posts", ["published" => 1]);
     <link rel="stylesheet" href="assets/css/style.css">
 
     <title>
-        <?php echo $post["title"]; ?> | EventShare
+        About Us | EventShare
     </title>
 
 </head>
@@ -49,12 +49,25 @@ $posts = selectAll("posts", ["published" => 1]);
             <div class="main-content-wrapper">
                 <div class="main-content single">
                     <h1 class="post-title">
-                        <?php echo $post["title"]; ?>
+                        About Us
                     </h1>
-                    <img src="<?php echo BASE_URL . "/assets/images/" . $post["image"] ?>" alt="SOASMosque" class="post-image">
 
                     <div class="post-content">
-                        <?php echo html_entity_decode($post["body"]); ?>
+                        <p>
+                        EventShare is a dynamic online platform designed to foster community engagement and promote local events in Brunei. Catering to the diverse interests of users, EventShare serves as a comprehensive hub for discovering and sharing upcoming events, ranging from cultural festivals and art exhibitions to sports tournaments and charity fundraisers. With its user-friendly interface, the website enables individuals to explore a rich tapestry of social gatherings and activities, fostering a vibrant sense of community involvement and connectivity within Brunei. 
+                        </p>
+
+                        <p>
+                        Furthermore, EventShare encourages users to actively participate in the local event scene by providing a seamless mechanism for event organizers to publicize their upcoming gatherings. By facilitating event promotion, the website serves as a catalyst for enhancing event visibility and attendance, thereby fostering a thriving events culture within the Bruneian community. Event organizers can easily create and manage event listings, customize event details, and reach a broader audience, ensuring that every noteworthy occasion receives the attention it deserves.
+                        </p>
+
+                        <p>
+                        In addition to its event-sharing functionality, EventShare also offers an innovative blogging feature that allows users to document and share their unique experiences and explorations of various places within Brunei. Through these personalized narratives, users can provide firsthand accounts of their encounters with local attractions, hidden gems, and cultural landmarks, fostering a deeper appreciation for the rich heritage and diverse landscapes that define Brunei. By facilitating the exchange of insightful perspectives and recommendations, the website cultivates a virtual community of enthusiastic storytellers and explorers, inspiring others to embark on their own adventures and discover the wonders of Brunei
+                        </p>
+
+                        <p>
+                        Overall, EventShare serves as an indispensable resource for individuals seeking to immerse themselves in the vibrant tapestry of Brunei's cultural landscape. Whether one is eager to participate in upcoming events, share their own experiences, or gain valuable insights into the local event scene, this website is poised to enrich the social fabric of Brunei by promoting inclusivity, connectivity, and a shared passion for exploration and community engagement.
+                        </p>
                     </div>
                 </div>
             </div>
