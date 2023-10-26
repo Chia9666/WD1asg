@@ -106,13 +106,11 @@ if (isset($_GET["t_id"])) {
                                 <p class="preview-text">
                                     <?php echo html_entity_decode(substr("body", 0, 150) . "..."); ?>
                                 </p>
-                                <a href="single.php?id=<?php echo $post["id"]; ?>" class="btn read-more">Read More</a>
+
+                                <a href="single.php?id=<?php echo $post["id"]; ?>" class="btn read-more"><i class="fa-solid fa-chevron-right"></i></a>
                             </div>
                         </div>
                     <?php endforeach; ?>
-
-
-
                 </div>
                 <!--//Main Content-->
 
