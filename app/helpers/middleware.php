@@ -1,6 +1,4 @@
 <?php
-
-
 function usersOnly($redirect = '/index.php')
 {
     if (empty($_SESSION['id'])) {

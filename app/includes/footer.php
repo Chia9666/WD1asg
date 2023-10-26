@@ -48,7 +48,7 @@
                         <textarea rows="4" name="message" class="text-input contact-input"
                             placeholder="Your message..."></textarea>
                         <button type="submit" class="btn btn-big contact-btn">
-                            <i class="fa-solid fa-envelope"></i> &nbsp;
+                            <i class="fa-solid fa-envelope"></i>
                             Send
                         </button>
                     </form>
