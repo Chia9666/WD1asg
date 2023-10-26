@@ -3,10 +3,12 @@ $(document).ready(function() {
         $('.nav').toggleClass('showing');
         $('.nav ul').toggleClass('showing');
         $('.nav ul li').toggleClass('showing');
+        $('.nav ul li ul').toggleClass('showing');
+        $('.nav ul li ul li').toggleClass('showing');
     });
 
     $('.post-wrapper').slick({
-        slidesToShow: 1,
+        slidesToShow: 3,
         slidesToScroll: 1,
         autoplay: true,
         autoplaySpeed: 2100,
@@ -16,7 +18,7 @@ $(document).ready(function() {
             {
               breakpoint: 1024,
               settings: {
-                slidesToShow: 1,
+                slidesToShow: 2,
                 slidesToScroll: 1,
                 infinite: true,
                 dots: true
